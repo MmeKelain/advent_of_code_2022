@@ -12,7 +12,7 @@ def day1_puzzle1(cals):
     return(all_sacks)
 
 def day1_puzzle2(all_sacks):
-    print all_sacks[0] + all_sacks[1] + all_sacks[2]
+    print(sum(all_sacks[:2]))
 
 def main():
     file = open("input.txt", 'r')
