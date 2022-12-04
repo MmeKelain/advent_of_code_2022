@@ -16,7 +16,7 @@ def day4_puzzle1(assig):
         elif elf2_tasks >= elf1_tasks:
             count+=1
     print(count)
-        return None
+    return None
 
 def day4_puzzle2(assig):
     count = 0
